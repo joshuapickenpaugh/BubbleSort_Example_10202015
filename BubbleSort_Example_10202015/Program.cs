@@ -17,12 +17,10 @@ namespace BubbleSort_Example_10202015
             int[] numbers = { 34, 123, 12, 76, 29, 54, 87 };
             Console.WriteLine("Before the bubble sort:");
             DisplayArrayValues(numbers);
-            Console.WriteLine();
-
+ 
             Console.WriteLine("After the bubble sort:");
             BubbleSortArrayValues(numbers);
             DisplayArrayValues(numbers);
-            Console.WriteLine();
 
             Console.WriteLine("Hit a key to escape program.");
 
